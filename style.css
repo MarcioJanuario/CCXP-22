@@ -1,0 +1,43 @@
+:root{
+    --texto-amarelo: #F3C61F;
+    --roxo: #514988;
+
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #FFD900;
+    padding-bottom: 30px;
+}
+
+header img{
+    margin: 30px 0px 0px 60px;
+    
+}
+
+#esquerda{
+    background-color: var(--roxo);
+}
+
+#esquerda h1{
+    color: var(--texto-amarelo);
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+#esquerda h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    
+}
