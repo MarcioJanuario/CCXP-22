@@ -2,21 +2,31 @@
     --texto-amarelo: #F3C61F;
     --roxo: #514988;
 
+
 }
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    width: 100%;
+    padding: 0;
 }
 
 header{
     background-color: #FFD900;
     padding-bottom: 30px;
+    width: 100%;
 }
 
 header img{
     margin: 30px 0px 0px 60px;
     
+}
+
+#section1{
+    display: grid;
+    grid-auto-flow: column;
+    width: 100%;
 }
 
 #esquerda{
@@ -26,7 +36,7 @@ header img{
 #esquerda h1{
     color: var(--texto-amarelo);
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 700;
     text-align: center;
     padding-top: 20px;
@@ -37,7 +47,98 @@ header img{
     color: white;
     text-transform: uppercase;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
+    text-align: center;   
+}
+
+#esquerda p {
+    color: white;
+    font-size: 29px;
+    font-weight: 400;
     text-align: center;
-    
+    margin-left: 60px;
+    padding-bottom: 90px;
+    padding-right: 60px;
+}
+
+#timer{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.time {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+
+    margin: 0;
+}
+
+.time h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--roxo);
+    margin: 20px 0 10px 0;
+}
+
+#content h2{
+    color: #E33881;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#content video{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#section2 {
+    display: flex;
+    margin-left: 60px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#section2 h2{
+    color: var(--texto-amarelo);
+    text-align: left;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#diasEvento{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#section2 img{
+    width: 200px;
+}
+
+#section2 button{
+    background-color: var(--roxo);
+    color: white;
+    height: 140px;
+    width: 600px;
+
+    border: 0;
+    border-radius: 10px;
+
+    font-size: 40px;
+    font-weight: 700;
+    margin: auto;
+
+    cursor: pointer;
+}
+
+#section2 button:hover{
+    color: var(--texto-amarelo);
+    background-color: #494081;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+
 }

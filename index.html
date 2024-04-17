@@ -10,9 +10,9 @@
 </head>
 <body>
     <header>
-        <img src="./img/logo.svg">
+        <img src="./assets/logo.svg">
     </header>
-    <section>
+    <section id="section1">
         <div id="esquerda">
             <h1>Reviva o épico</h1>
             <h2> De 01 a 04 de dezembro</h2>
@@ -21,9 +21,39 @@
             </p>
         </div>
         <div id="direita">
-            <div id="countDown"></div>
-            <div id="video"></div>
+            <div id="timer">
+                <div class="time">
+                    <h1 id="dia">00D</h1>
+                </div>
+                <div class="time">
+                    <h1 id="hora">00H</h1>
+                </div>
+                <div class="time">
+                    <h1 id="minuto">00M</h1>
+                </div>
+                <div class="time">
+                    <h1 id="segundo">00S</h1>
+                </div>
+            </div>
+            <div id="content">
+                <h2>Para a maior CCXP de Todos os Tempos</h2>
+                <video width="95%" controls loop><source src="./assets/Arlequina.mp4"></video>
+            </div>
         </div>
     </section>
+    <section id="section2">
+        <div id="blocoImg">
+            <h2>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h2>
+            <div id="diasEvento">
+                <img src="./assets/quinta.svg">
+                <img src="./assets/sexta.svg">
+                <img src="./assets/esgotado.svg">
+                <img src="./assets/domingo.svg">
+            </div>
+        </div>
+            <button> GARANTA O SEU</button>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
